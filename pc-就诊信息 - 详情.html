@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
+    <title>就诊信息详情</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="info-head">
+        <div class="info-head-main">拜博（劲松店）诊所</div>
+    </div>
+    <!-- //头部 -->
+    <!-- main -->
+    <div class="info-detail">
+        <!-- 个人信息 -->
+        <div class="info-detail-person">
+            <div class="info-detail-person-left">
+                <p>李小萌<span>（6 岁）</span></p>
+                <b>139-2222-9999</b>
+            </div>
+            <div class="info-detail-person-right">
+                <p>就诊时间：未就诊</p>
+                <img src="images/icon/bao.png" alt=""><span>399元儿童口腔保险</span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- //个人信息 -->
+        <!-- 就诊凭证 -->
+        <div class="info-detail-voucher">
+            <div class="info-detail-voucher-title">
+                <p>就诊凭证</p>
+            </div>
+            <div class="info-detail-voucher-con">
+                <p>BB-BJjrj01-010cy-001-</p>
+                <input type="text" value="" id="" />
+                <a href="#">确认就诊</a>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- // 就诊凭证 -->
+        <!-- 口腔问题 -->
+        <div class="info-detail-Q">
+            <div class="info-detail-voucher-title">
+                <p>口腔问题</p>
+            </div>
+            <div class="info-detail-Q-con">
+                <p>牙齿不齐、虫牙</p>
+                <span>上颌前牙自数年前开始出现牙缝，且无明显变化，未处理，今来我院就诊。</span>
+                <img src="images/pic02.png" alt="">
+            </div>
+        </div>
+        <!-- //口腔问题 -->
+        <!-- 治疗信息 -->
+        <div class="info-detail-form">
+            <div class="info-detail-form-title">
+                <p>治疗信息<span>(已治疗/未治疗：时间紧张已约下次治疗)</span></p>
+                <b>治疗时间：2017-06-23  21：23</b>
+                <div class="clear"></div>
+            </div>
+            <div class="info-detail-form-radio">
+                <div class="info-detail-form-radio1">
+                    <label for="radio1">
+                        <input type="radio" checked="checked" name="radio" id="radio1">已治疗</label>
+                    <label for="radio2">
+                        <input type="radio" name="radio" id="radio2">未治疗</label>
+                </div>
+                <div class="info-detail-form-radio2">
+                    <p><span>*</span>原因：</p>
+                    <input type="text" name="">
+                    <div class="clear"></div>
+                </div>
+                <div class="info-detail-form-radio3">
+                    <span>医生：</span>
+                    <input type="text" name="">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="info-detail-form-con">
+                <ul>
+                    <li>
+                        <span>主诉：</span>
+                        <textarea name="" placeholder="" value=""></textarea>
+                        <div class="clear"></div>
+                    </li>
+                    <li class="info-detail-form-con-left">
+                        <span>既往史：</span>
+                        <textarea name="" placeholder="" value=""></textarea>
+                        <div class="clear"></div>
+                    </li>
+                    <li class="info-detail-form-con-right">
+                        <span>现病史：</span>
+                        <textarea name="" placeholder="" value=""></textarea>
+                        <div class="clear"></div>
+                    </li>
+                    <div class="clear"></div>
+                    <li>
+                        <span>检查：</span>
+                        <textarea name="" placeholder="" value=""></textarea>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <span>治疗过程：</span>
+                        <textarea name="" placeholder="" value=""></textarea>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <span>医嘱：</span>
+                        <textarea name="" placeholder="" value=""></textarea>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 上传治疗效果图片 -->
+            <div class="info-detail-form-up">
+                <div class="img-box full">
+                    <section class="img-section">
+                        <p class="up-p">治疗前</p>
+                        <div class="z_photo upimg-div clear">
+                            <!--<section class="up-section fl">
+                    <span class="up-span"></span>
+                    <img src="images/icon/a7.png" class="close-upimg">
+                    <img src="images/icon/3c.png" class="type-upimg" alt="添加标签">
+                    <img src="images/icon/test2.jpg" class="up-img">
+                    <p class="img-namep"></p>
+                    <input id="taglocation" name="taglocation" value="" type="hidden">
+                    <input id="tags" name="tags" value="" type="hidden">
+                </section>-->
+                            <section class="z_file fl">
+                                <img src="images/icon/a11.png" class="add-img">
+                                <input type="file" name="file" id="file" class="file" value="" accept="image/jpg,image/jpeg,image/png,image/bmp" multiple />
+                            </section>
+                        </div>
+                    </section>
+                    <div class="clear"></div>
+                </div>
+                <aside class="mask works-mask">
+                    <div class="mask-content">
+                        <p class="del-p ">您确定要删除作品图片吗？</p>
+                        <p class="check-p"><span class="del-com wsdel-ok">确定</span><span class="wsdel-no">取消</span></p>
+                    </div>
+                </aside>
+            </div>
+            <!-- //上传治疗效果图片 -->
+            <!-- 上传治疗效果图片 -->
+            <div class="info-detail-form-up">
+                <div class="img-box full">
+                    <section class="img-section">
+                        <p class="up-p">治疗中</p>
+                        <div class="z_photo upimg-div clear">
+                            <!--<section class="up-section fl">
+                    <span class="up-span"></span>
+                    <img src="images/icon/a7.png" class="close-upimg">
+                    <img src="images/icon/3c.png" class="type-upimg" alt="添加标签">
+                    <img src="images/icon/test2.jpg" class="up-img">
+                    <p class="img-namep"></p>
+                    <input id="taglocation" name="taglocation" value="" type="hidden">
+                    <input id="tags" name="tags" value="" type="hidden">
+                </section>-->
+                            <section class="z_file fl">
+                                <img src="images/icon/a11.png" class="add-img">
+                                <input type="file" name="file" id="file" class="file" value="" accept="image/jpg,image/jpeg,image/png,image/bmp" multiple />
+                            </section>
+                        </div>
+                    </section>
+                    <div class="clear"></div>
+                </div>
+                <aside class="mask works-mask">
+                    <div class="mask-content">
+                        <p class="del-p ">您确定要删除作品图片吗？</p>
+                        <p class="check-p"><span class="del-com wsdel-ok">确定</span><span class="wsdel-no">取消</span></p>
+                    </div>
+                </aside>
+            </div>
+            <!-- //上传治疗效果图片 -->
+            <!-- 上传治疗效果图片 -->
+            <div class="info-detail-form-up">
+                <div class="img-box full">
+                    <section class="img-section">
+                        <p class="up-p">治疗后</p>
+                        <div class="z_photo upimg-div clear">
+                            <!--<section class="up-section fl">
+                                    <span class="up-span"></span>
+                                    <img src="images/icon/a7.png" class="close-upimg">
+                                    <img src="images/icon/3c.png" class="type-upimg" alt="添加标签">
+                                    <img src="images/icon/test2.jpg" class="up-img">
+                                    <p class="img-namep"></p>
+                                    <input id="taglocation" name="taglocation" value="" type="hidden">
+                                    <input id="tags" name="tags" value="" type="hidden">
+                            </section>-->
+                            <section class="z_file fl">
+                                <img src="images/icon/a11.png" class="add-img">
+                                <input type="file" name="file" id="file" class="file" value="" accept="image/jpg,image/jpeg,image/png,image/bmp" multiple />
+                            </section>
+                            <div class="clear"></div>
+                        </div>
+                    </section>
+                </div>
+                <aside class="mask works-mask">
+                    <div class="mask-content">
+                        <p class="del-p ">您确定要删除作品图片吗？</p>
+                        <p class="check-p"><span class="del-com wsdel-ok">确定</span><span class="wsdel-no">取消</span></p>
+                    </div>
+                </aside>
+            </div>
+            <!-- //上传治疗效果图片 -->
+            <!-- button -->
+            <div class="info-detail-form-btn">
+                <button type="button">确认提交</button>
+            </div>
+            <!-- //button -->
+        </div>
+        <!-- //治疗信息 -->
+    </div>
+    <!-- main -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imgUp.js"></script>
+</body>
+
+</html>

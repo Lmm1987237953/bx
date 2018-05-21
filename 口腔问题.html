@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>口腔问题</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">口腔问题</div>
+    <!-- //头部 -->
+    <div class="container">
+        <!-- 表单 -->
+        <form class="form-horizontal archives">
+            <!-- 就 诊 人 -->
+            <div class="archives-name">
+                <label for="">就 诊 人：</label>
+                <input type="text" placeholder="请输入就诊人姓名">
+                <div class="clear"></div>
+            </div>
+            <!-- //就 诊 人 -->
+            <!-- 联系电话 -->
+            <div class="archives-tel">
+                <label for="">联系电话：</label>
+                <input type="text" placeholder="请输入您的联系电话">
+                <div class="clear"></div>
+            </div>
+            <!-- //联系电话 -->
+            <!-- checkbox -->
+            <div class="archives-checkbox">
+                <p>口腔问题：</p>
+                <label for="checkbox1">
+                    <input type="checkbox" id="checkbox1" /> <span>牙齿不齐</span></label>
+                <label for="checkbox2">
+                    <input type="checkbox" id="checkbox2" /> <span>虫牙</span></label>
+                <label for="checkbox3">
+                    <input type="checkbox" id="checkbox3" /> <span>口腔溃疡</span></label>
+                <label for="checkbox4">
+                    <input type="checkbox" id="checkbox4" /> <span>牙齿缺失</span></label>
+                <label for="checkbox5">
+                    <input type="checkbox" id="checkbox5" /> <span>牙疱</span></label>
+                <label for="checkbox6">
+                    <input type="checkbox" id="checkbox6" /> <span>多生齿</span></label>
+                <div class="clear"></div>
+            </div>
+            <!-- //checkbox -->
+            <!-- textarea -->
+            <div class="archives-textarea">
+                <textarea name="" id="" rows="10" placeholder="其他：问题、病症、既往史、过敏药物···"></textarea>
+            </div>
+            <!-- //textarea -->
+            <!-- 上传 -->
+            <!-- 上传治疗效果图片 -->
+            <div class="info-detail-form-up">
+                <div class="img-box full">
+                    <section class="img-section">
+                        <div class="z_photo upimg-div clear">
+                            <!--<section class="up-section fl">
+                                    <span class="up-span"></span>
+                                    <img src="images/icon/a7.png" class="close-upimg">
+                                    <img src="images/icon/3c.png" class="type-upimg" alt="添加标签">
+                                    <img src="images/icon/test2.jpg" class="up-img">
+                                    <p class="img-namep"></p>
+                                    <input id="taglocation" name="taglocation" value="" type="hidden">
+                                    <input id="tags" name="tags" value="" type="hidden">
+                                </section>-->
+                            <section class="z_file fl">
+                                <img src="images/icon/a11.png" class="add-img">
+                                <input type="file" name="file" id="file" class="file" value="" accept="image/jpg,image/jpeg,image/png,image/bmp" multiple />
+                            </section>
+                        </div>
+                    </section>
+                    <div class="clear"></div>
+                </div>
+                <aside class="mask works-mask">
+                    <div class="mask-content">
+                        <p class="del-p ">您确定要删除作品图片吗？</p>
+                        <p class="check-p"><span class="del-com wsdel-ok">确定</span><span class="wsdel-no">取消</span></p>
+                    </div>
+                </aside>
+            </div>
+            <!-- //上传治疗效果图片 -->
+
+            <!-- button -->
+            <div class="info-detail-form-btn1">
+                <button type="button"  onclick="location.href='诊所列表.html'">选择诊所</button>
+            </div>
+            <!-- //button -->
+            <!-- 上传 -->
+        </form>
+        <!-- //表单 -->
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imgUp.js"></script>
+</body>
+
+</html>
